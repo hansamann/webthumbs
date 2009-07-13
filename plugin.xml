@@ -1,0 +1,17 @@
+<plugin name='webthumbs' version='0.1' grailsVersion='1.1 &gt; *'>
+  <author>Sven Haiges</author>
+  <authorEmail>hansamann@yahoo.de</authorEmail>
+  <title>Create preview image urls for websites</title>
+  <description>\
+This plugin creates preview URLs using the bluga.net webthumbs service. You can pass a URL into the webthumbsService and it will return a preview URL which returns an preview image to the URL you passed. You will need to sign up at webthumb.bluga.net. 
+</description>
+  <documentation>http://grails.org/Webthumbs+Plugin</documentation>
+  <resources>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>WebthumbsController</resource>
+    <resource>WebthumbsService</resource>
+  </resources>
+  <dependencies />
+  <behavior />
+</plugin>
